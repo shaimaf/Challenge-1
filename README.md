@@ -53,8 +53,8 @@
        
         h4 {
             text-align: left;
-            font-size: 8px;
-            margin-bottom: 6px;
+            font-size: 6px;
+            margin-bottom: 4px;
         }
 
         form {
