@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -59,11 +59,19 @@
 
         form label {
             display: inline-block;
-            width: 150px;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        .form-label-box {
+            background-color: #f0f0f0;
+            padding: 5px;
+            border-radius: 4px;
         }
 
         form input {
-            width: calc(100% - 160px);
+            width: calc(100% - 10px);
             box-sizing: border-box;
             margin-bottom: 10px;
         }
@@ -109,10 +117,10 @@
         <h3>Enter Course Grades</h3>
 
         <form>
-            <label for="firstName">Full Name: First Name Only</label>
+            <label for="firstName" class="form-label-box">Full Name: First Name Only</label>
             <input type="text" id="firstName" name="firstName" required>
 
-            <label for="lastName">Last Name: Last Name Only</label>
+            <label for="lastName" class="form-label-box">Last Name: Last Name Only</label>
             <input type="text" id="lastName" name="lastName" required>
 
             <label for="courseNumber">Course Number</label>
