@@ -45,9 +45,9 @@
         }
 
         h3 {
-            text-align: left;
-            font-size: 8px;
-            margin-bottom: 6px;
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 10px;
         }
 
         form {
@@ -164,6 +164,7 @@
 </body>
 
 </html>
+
 
 
 
