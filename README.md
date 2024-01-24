@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -30,6 +31,7 @@
             margin: 20px auto;
             border: none; /* Remove border */
             padding: 10px; /* Added padding for the small box effect */
+            text-align: center; /* Centered text */
         }
 
         h2 {
@@ -61,6 +63,11 @@
             padding: 5px;
             border-radius: 4px;
             margin: 5px; /* Added margin for separation */
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
         }
 
         form input {
@@ -97,6 +104,11 @@
 
         .small-text {
             font-size: 10px;
+            text-align: left;
+        }
+
+        .tiny-text {
+            font-size: 8px; /* Adjusted font size to make it smaller */
             text-align: left;
         }
     </style>
@@ -136,7 +148,7 @@
             </form>
         </div>
 
-        <h3 class="small-text">The table below displays the contents of the FinalGrades.txt file located on the Webserver</h3>
+        <h3 class="tiny-text">The table below displays the contents of the FinalGrades.txt file located on the Webserver</h3>
 
         <table>
             <thead>
@@ -166,5 +178,6 @@
 </body>
 
 </html>
+
 
 
