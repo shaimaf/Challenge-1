@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,10 +13,11 @@
         }
 
         header {
-            background-color: #333;
-            color: white;
+            background-color: white;
+            color: #333;
             padding: 10px;
-            text-align: right;
+            text-align: left;
+            font-size: 14px;
         }
 
         section {
@@ -28,8 +30,18 @@
         }
 
         form {
-            display: grid;
-            gap: 10px;
+            font-size: 12px;
+        }
+
+        form label {
+            display: inline-block;
+            width: 150px; /* Adjusted width to provide some spacing */
+        }
+
+        form input {
+            width: calc(100% - 160px); /* Adjusted width to make the input take the remaining space */
+            box-sizing: border-box; /* Included to ensure the total width includes padding and border */
+            margin-bottom: 10px; /* Added margin for spacing between inputs */
         }
 
         table {
@@ -38,11 +50,14 @@
             margin-top: 20px;
         }
 
-        table, th, td {
+        table,
+        th,
+        td {
             border: 1px solid #ddd;
         }
 
-        th, td {
+        th,
+        td {
             padding: 12px;
             text-align: left;
         }
@@ -54,10 +69,11 @@
     </style>
     <title>Your Website</title>
 </head>
+
 <body>
 
     <header>
-        <a href="#">Logout</a>
+        <a href="#" style="text-decoration: none; color: #333;">Logout</a>
     </header>
 
     <section>
@@ -109,4 +125,5 @@
     </section>
 
 </body>
+
 </html>
