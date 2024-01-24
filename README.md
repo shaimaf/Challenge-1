@@ -33,6 +33,7 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: none; /* Remove border */
         }
 
         h2 {
@@ -117,22 +118,23 @@
         <form>
             <label for="firstName">First Name:</label>
             <input type="text" id="firstName" name="firstName" placeholder="First Name Only" required>
+
             <label for="lastName">Last Name:</label>
             <input type="text" id="lastName" name="lastName" placeholder="Last Name Only" required>
+
             <label for="courseNumber">Course Number:</label>
             <input type="text" id="courseNumber" name="courseNumber" placeholder="Course Number" required>
+
             <label for="finalGrade">Final Grade:</label>
             <input type="number" id="finalGrade" name="finalGrade" placeholder="Final Grade" required>
+
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
         </form>
 
-
-
-
         <h3>The table below displays the contents of the FinalGrades.txt file located on the Webserver</h3>
 
-
+        <table>
             <thead>
                 <tr>
                     <th>First Name</th>
@@ -152,14 +154,15 @@
                 </tr>
                 <!-- Add more rows as needed -->
             </tbody>
+        </table>
 
 
-    
     </section>
 
 </body>
 
 </html>
+
 
 
 
