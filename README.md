@@ -59,9 +59,9 @@
         }
 
         form label {
-            flex: 0 0 30%; /* Adjusted width */
+            flex: 0 0 25%; /* Adjusted width */
             text-align: right;
-            margin-right: 10px;
+            margin-right: 5px;
         }
 
         form input {
@@ -75,7 +75,7 @@
 
         form input[type="submit"],
         form input[type="reset"] {
-            flex: 0 0 30%; /* Adjusted width */
+            flex: 0 0 25%; /* Adjusted width */
             margin-right: 5px;
         }
 
@@ -100,6 +100,11 @@
         th {
             background-color: #333;
             color: white;
+        }
+
+        .small-text {
+            font-size: 10px;
+            text-align: left;
         }
     </style>
     <title>Your Website</title>
@@ -136,7 +141,7 @@
             <input type="reset" value="Reset">
         </form>
 
-        <h3>The table below displays the contents of the FinalGrades.txt file located on the Webserver</h3>
+        <p class="small-text">The table below displays the contents of the FinalGrades.txt file located on the Webserver</p>
 
         <table>
             <thead>
@@ -165,14 +170,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
