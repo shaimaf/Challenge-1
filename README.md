@@ -27,7 +27,7 @@
         }
 
         section {
-            max-width: 600px;
+            max-width: calc(100% - 20px); /* Adjusted max-width */
             margin: 20px auto;
             border: none; /* Remove border */
         }
@@ -119,17 +119,22 @@
         </h2>
         <h3>Enter Course Grades</h3>
 
-<form>
-    <label for="firstName">First Name:</label>
-    <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
-    <label for="lastName">Last Name:</label>
-    <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>      <label for="courseNumber">Course Number:</label>
-    <input type="text" id="courseNumber" name="courseNumber" placeholder="Course Number" required>
-    <label for="finalGrade">Final Grade:</label>
-    <input type="number" id="finalGrade" name="finalGrade" placeholder="Final Grade" required>
-    <input type="submit" value="Submit">
-    <input type="reset" value="Reset">
-</form>
+        <form>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+
+            <label for="courseNumber">Course Number:</label>
+            <input type="text" id="courseNumber" name="courseNumber" placeholder="Course Number" required>
+
+            <label for="finalGrade">Final Grade:</label>
+            <input type="number" id="finalGrade" name="finalGrade" placeholder="Final Grade" required>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
 
         <h3>The table below displays the contents of the FinalGrades.txt file located on the Webserver</h3>
 
@@ -160,6 +165,7 @@
 </body>
 
 </html>
+
 
 
 
