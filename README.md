@@ -108,7 +108,7 @@
 
     <section>
         <h2>
-            <img src="https://i.imgur.com/Z5x9n5A.png" alt="Computer Networking Technology">
+            <img src="https://i.imgur.com/Z5x9n5A.png">
         </h2>
         <h3>Enter Course Grades</h3>
 
