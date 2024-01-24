@@ -12,7 +12,6 @@
         }
 
         header {
-            background-color: white;
             color: #333;
             padding: 10px;
             text-align: right;
@@ -22,9 +21,7 @@
         a {
             text-decoration: none;
             color: #333;
-            display: inline-block;
             padding: 5px;
-            background-color: white;
             border-radius: 4px;
         }
 
@@ -135,3 +132,4 @@
 </body>
 
 </html>
+
