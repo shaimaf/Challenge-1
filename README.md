@@ -29,7 +29,7 @@
         section {
             max-width: 600px;
             margin: 20px auto;
-            background: url('yellow-cable-image.jpg') center/cover no-repeat;
+            background: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Fshape-force-wire-cable-usb-260nw-1752276383.jpg&tbnid=mxZQ1SwLRK6iZM&vet=12ahUKEwiNqYLm7PSDAxXkOGIAHbkuAOQQMygAegQIARBO..i&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Fshape-force-wire-cable-usb-adapter-1752276383&docid=WQKoE5vyeh4R_M&w=390&h=280&itg=1&q=yellow%20cable%20in%20curve&ved=2ahUKEwiNqYLm7PSDAxXkOGIAHbkuAOQQMygAegQIARBO) center/cover no-repeat;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
