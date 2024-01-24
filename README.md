@@ -97,12 +97,12 @@
         }
 
         .small-text {
-            font-size: 10px;
+            font-size: 8px; /* Adjusted font size to make it very small */
             text-align: left;
         }
 
         .tiny-text {
-            font-size: 8px; /* Adjusted font size to make it smaller */
+            font-size: 6px; /* Further reduced font size */
             text-align: left;
         }
     </style>
@@ -166,7 +166,7 @@
             </tbody>
         </table>
 
-        <p class="small-text">Clear Text file</p>
+        <p class="tiny-text">Clear Text file</p>
     </section>
 
     <script>
@@ -207,4 +207,3 @@
 </body>
 
 </html>
-
