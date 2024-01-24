@@ -156,11 +156,11 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Chris</td>
-                    <td>Arsenault</td>
-                    <td>CNET2020</td>
-                    <td>95</td>
-                    <td>A</td>
+                    <td id="outputFirstName"></td>
+                    <td id="outputLastName"></td>
+                    <td id="outputCourseNumber"></td>
+                    <td id="outputFinalGrade"></td>
+                    <td id="outputLetterGrade"></td>
                 </tr>
                 <!-- Add more rows as needed -->
             </tbody>
@@ -169,6 +169,42 @@
         <p class="small-text">Clear Text file</p>
     </section>
 
+    <script>
+        // JavaScript code to update table based on form input
+        document.querySelector('form').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            // Get form input values
+            var firstName = document.getElementById('firstName').value;
+            var lastName = document.getElementById('lastName').value;
+            var courseNumber = document.getElementById('courseNumber').value;
+            var finalGrade = document.getElementById('finalGrade').value;
+
+            // Display values in the table
+            document.getElementById('outputFirstName').innerText = firstName;
+            document.getElementById('outputLastName').innerText = lastName;
+            document.getElementById('outputCourseNumber').innerText = courseNumber;
+            document.getElementById('outputFinalGrade').innerText = finalGrade;
+            document.getElementById('outputLetterGrade').innerText = getLetterGrade(finalGrade);
+        });
+
+        // Function to get letter grade based on numeric grade
+        function getLetterGrade(grade) {
+            if (grade >= 90) {
+                return 'A';
+            } else if (grade >= 80) {
+                return 'B';
+            } else if (grade >= 70) {
+                return 'C';
+            } else if (grade >= 60) {
+                return 'D';
+            } else {
+                return 'F';
+            }
+        }
+    </script>
+
 </body>
 
 </html>
+
