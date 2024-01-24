@@ -50,6 +50,12 @@
             font-size: 16px;
             margin-bottom: 10px;
         }
+       
+        h4 {
+            text-align: left;
+            font-size: 8px;
+            margin-bottom: 6px;
+        }
 
         form {
             font-size: 10px; /* Adjusted font size */
@@ -142,7 +148,7 @@
             </form>
         </div>
 
-        <h3 class="tiny-text">The table below displays the contents of the FinalGrades.txt file located on the Webserver</h3>
+        <h4>The table below displays the contents of the FinalGrades.txt file located on the Webserver</h4>
 
         <table>
             <thead>
