@@ -55,10 +55,11 @@
             display: flex;
             flex-wrap: wrap;
             gap: 5px;
+            align-items: center; /* Align items vertically in the center */
         }
 
         form label {
-            flex: 0 0 25%;
+            flex: 0 0 30%; /* Adjusted width */
             text-align: right;
             margin-right: 10px;
         }
@@ -74,8 +75,8 @@
 
         form input[type="submit"],
         form input[type="reset"] {
-            flex-basis: 100%;
-            margin-right: 0;
+            flex: 0 0 30%; /* Adjusted width */
+            margin-right: 5px;
         }
 
         table {
@@ -120,10 +121,10 @@
 
         <form>
             <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName" placeholder="First Name Only" required>
+            <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
 
             <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName" placeholder="Last Name Only" required>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
 
             <label for="courseNumber">Course Number:</label>
             <input type="text" id="courseNumber" name="courseNumber" placeholder="Course Number" required>
@@ -164,6 +165,7 @@
 </body>
 
 </html>
+
 
 
 
