@@ -45,9 +45,9 @@
         }
 
         h3 {
-            text-align: center;
-            font-size: 16px;
-            margin-bottom: 10px;
+            text-align: left;
+            font-size: 8px;
+            margin-bottom: 6px;
         }
 
         form {
@@ -69,6 +69,13 @@
             padding: 5px;
             border: 1px solid #ddd;
             border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        form input[type="submit"],
+        form input[type="reset"] {
+            flex-basis: 100%;
+            margin-right: 0;
         }
 
         table {
@@ -157,6 +164,7 @@
 </body>
 
 </html>
+
 
 
 
