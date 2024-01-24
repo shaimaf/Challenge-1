@@ -59,14 +59,16 @@
 
         .form-label-box {
             display: inline-block;
-            color: #333;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            color: #888; /* Light grey font color */
         }
 
         .form-label-box span {
             background-color: #f0f0f0;
             padding: 5px;
             border-radius: 4px;
-            color: #888; /* Light grey font color */
         }
 
         form input {
