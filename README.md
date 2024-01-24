@@ -64,11 +64,6 @@
             margin: 5px; /* Added margin for separation */
         }
 
-        form label {
-            display: block;
-            margin-bottom: 5px;
-        }
-
         form input {
             box-sizing: border-box;
             padding: 5px;
@@ -76,12 +71,6 @@
             border-radius: 4px;
             margin-bottom: 5px;
             width: auto; /* Adjusted width to fit content */
-        }
-
-        form input[type="submit"],
-        form input[type="reset"] {
-            width: auto; /* Adjusted width to fit content */
-            margin-right: 5px;
         }
 
         table {
@@ -178,4 +167,5 @@
 </body>
 
 </html>
+
 
