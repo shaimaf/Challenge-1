@@ -58,10 +58,14 @@
         }
 
         .form-label-box {
+            display: inline-block;
+            color: #333;
+        }
+
+        .form-label-box span {
             background-color: #f0f0f0;
             padding: 5px;
             border-radius: 4px;
-            display: inline-block;
             color: #888; /* Light grey font color */
         }
 
@@ -112,10 +116,10 @@
         <h3>Enter Course Grades</h3>
 
         <form>
-            <label for="firstName" class="form-label-box">Full Name: <span class="light-grey-text">First Name Only</span></label>
+            <label for="firstName" class="form-label-box">Full Name: <span>First Name Only</span></label>
             <input type="text" id="firstName" name="firstName" required>
 
-            <label for="lastName" class="form-label-box">Last Name: <span class="light-grey-text">Last Name Only</span></label>
+            <label for="lastName" class="form-label-box">Last Name: <span>Last Name Only</span></label>
             <input type="text" id="lastName" name="lastName" required>
 
             <label for="courseNumber">Course Number</label>
