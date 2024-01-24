@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -50,7 +50,7 @@
             font-size: 16px;
             margin-bottom: 10px;
         }
-       
+
         h4 {
             text-align: left;
             font-size: 6px;
@@ -110,6 +110,16 @@
         .tiny-text {
             font-size: 6px; /* Further reduced font size */
             text-align: left;
+        }
+
+        .clear-button {
+            font-size: 6px;
+            background-color: #ddd;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            padding: 2px 5px;
+            cursor: pointer;
+            margin-top: 5px;
         }
     </style>
     <title>Your Website</title>
@@ -172,7 +182,7 @@
             </tbody>
         </table>
 
-        <p class="tiny-text">Clear Text file</p>
+        <p class="tiny-text">Clear Text file <span class="clear-button" onclick="clearTable()">Clear</span></p>
     </section>
 
     <script>
@@ -208,8 +218,18 @@
                 return 'F';
             }
         }
+
+        // Function to clear the table
+        function clearTable() {
+            document.getElementById('outputFirstName').innerText = '';
+            document.getElementById('outputLastName').innerText = '';
+            document.getElementById('outputCourseNumber').innerText = '';
+            document.getElementById('outputFinalGrade').innerText = '';
+            document.getElementById('outputLetterGrade').innerText = '';
+        }
     </script>
 
 </body>
 
 </html>
+
