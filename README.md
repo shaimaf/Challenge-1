@@ -61,7 +61,9 @@
         }
 
         form label {
-            display: none;
+            flex: 0 0 100%;
+            text-align: right;
+            margin-right: 10px;
         }
 
         form input {
@@ -113,7 +115,7 @@
         <h3>Enter Course Grades</h3>
 
         <form>
-            <label for="firstName">Full Name:</label>
+            <label for="firstName">First Name:</label>
             <input type="text" id="firstName" name="firstName" placeholder="First Name Only" required>
 
             <label for="lastName">Last Name:</label>
