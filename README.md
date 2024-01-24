@@ -1,4 +1,3 @@
-
 <html lang="en">
 
 <head>
@@ -31,7 +30,6 @@
             margin: 20px auto;
             border: none; /* Remove border */
             padding: 10px; /* Added padding for the small box effect */
-            text-align: center; /* Centered text */
         }
 
         h2 {
@@ -63,11 +61,6 @@
             padding: 5px;
             border-radius: 4px;
             margin: 5px; /* Added margin for separation */
-        }
-
-        form label {
-            display: block;
-            margin-bottom: 5px;
         }
 
         form input {
@@ -122,7 +115,7 @@
             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Networking</span>
             <span>Technology</span>
         </h2>
-        <h3 class="small-text">Enter Course Grades</h3>
+        <h3>Enter Course Grades</h3>
 
         <div class="grey-box">
             <form>
@@ -173,6 +166,5 @@
 </body>
 
 </html>
-
 
 
