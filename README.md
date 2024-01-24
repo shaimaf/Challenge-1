@@ -30,6 +30,7 @@
             max-width: calc(100% - 20px); /* Adjusted max-width */
             margin: 20px auto;
             border: none; /* Remove border */
+            padding: 10px; /* Added padding for the small box effect */
         }
 
         h2 {
@@ -51,7 +52,7 @@
         }
 
         form {
-            font-size: 12px;
+            font-size: 10px; /* Adjusted font size */
             display: flex;
             flex-wrap: wrap;
             gap: 5px;
@@ -59,23 +60,21 @@
         }
 
         form label {
-            flex: 0 0 25%; /* Adjusted width */
+            flex: 0 0 auto; /* Adjusted width */
             text-align: right;
             margin-right: 5px;
         }
 
         form input {
-            flex: 1;
             box-sizing: border-box;
             padding: 5px;
             border: 1px solid #ddd;
             border-radius: 4px;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
 
         form input[type="submit"],
         form input[type="reset"] {
-            flex: 0 0 25%; /* Adjusted width */
             margin-right: 5px;
         }
 
@@ -122,26 +121,34 @@
             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Networking</span>
             <span>Technology</span>
         </h2>
-        <h3>Enter Course Grades</h3>
+        <h3 class="small-text">Enter Course Grades</h3>
 
         <form>
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+            <div style="background-color: #ddd; display: inline-block; padding: 5px; border-radius: 4px;">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+            </div>
 
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+            <div style="background-color: #ddd; display: inline-block; padding: 5px; border-radius: 4px;">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+            </div>
 
-            <label for="courseNumber">Course Number:</label>
-            <input type="text" id="courseNumber" name="courseNumber" placeholder="Course Number" required>
+            <div style="background-color: #ddd; display: inline-block; padding: 5px; border-radius: 4px;">
+                <label for="courseNumber">Course Number:</label>
+                <input type="text" id="courseNumber" name="courseNumber" placeholder="Course Number" required>
+            </div>
 
-            <label for="finalGrade">Final Grade:</label>
-            <input type="number" id="finalGrade" name="finalGrade" placeholder="Final Grade" required>
+            <div style="background-color: #ddd; display: inline-block; padding: 5px; border-radius: 4px;">
+                <label for="finalGrade">Final Grade:</label>
+                <input type="number" id="finalGrade" name="finalGrade" placeholder="Final Grade" required>
+            </div>
 
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
         </form>
 
-        <p class="small-text">The table below displays the contents of the FinalGrades.txt file located on the Webserver</p>
+        <h3 class="small-text">The table below displays the contents of the FinalGrades.txt file located on the Webserver</h3>
 
         <table>
             <thead>
@@ -165,8 +172,10 @@
             </tbody>
         </table>
 
+        <p class="small-text">Clear Text file</p>
     </section>
 
 </body>
 
 </html>
+
