@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -29,11 +29,10 @@
         section {
             max-width: 600px;
             margin: 20px auto;
-            background: url('https://via.placeholder.com/600x400') center/contain no-repeat;
+            background-color: #fff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            color: white;
         }
 
         h2 {
@@ -156,3 +155,4 @@
 </body>
 
 </html>
+
