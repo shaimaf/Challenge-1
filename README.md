@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -103,7 +103,7 @@
     <section>
         <h2>
             <span>Computer</span>
-            <span>Networking</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Networking</span>
             <span>Technology</span>
         </h2>
         <h3>Enter Course Grades</h3>
