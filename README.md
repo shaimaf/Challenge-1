@@ -27,9 +27,9 @@
         }
 
         section {
-            max-width: 200px;
-            margin: 20px auto;
-            background: url(https://imgur.com/a/wa5mrzk) center/cover no-repeat;
+            max-width: 70px;
+            margin: 10px auto;
+            background: url(https://imgur.com/a/wa5mrzk) center no-repeat;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -74,28 +74,7 @@
             margin-bottom: 10px;
         }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        table,
-        th,
-        td {
-            border: 1px solid #ddd;
-        }
-
-        th,
-        td {
-            padding: 12px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #333;
-            color: white;
-        }
+    
     </style>
     <title>Your Website</title>
 </head>
