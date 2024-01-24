@@ -57,16 +57,7 @@
             font-size: 12px;
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        form label {
-            display: inline-block;
-            width: 150px;
-            padding: 5px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            box-sizing: border-box;
+            gap: 5px;
         }
 
         form input {
@@ -118,17 +109,10 @@
         <h3>Enter Course Grades</h3>
 
         <form>
-            <label for="firstName">Full Name: First Name Only</label>
-            <input type="text" id="firstName" name="firstName" required>
-
-            <label for="lastName">Last Name: Last Name Only</label>
-            <input type="text" id="lastName" name="lastName" required>
-
-            <label for="courseNumber">Course Number</label>
-            <input type="text" id="courseNumber" name="courseNumber" required>
-
-            <label for="finalGrade">Final Grade</label>
-            <input type="number" id="finalGrade" name="finalGrade" required>
+            <input type="text" id="firstName" name="firstName" placeholder="Full Name: First Name Only" required>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name: Last Name Only" required>
+            <input type="text" id="courseNumber" name="courseNumber" placeholder="Course Number" required>
+            <input type="number" id="finalGrade" name="finalGrade" placeholder="Final Grade" required>
 
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
