@@ -60,6 +60,10 @@
             gap: 5px;
         }
 
+        form label {
+            display: none;
+        }
+
         form input {
             flex: 1;
             box-sizing: border-box;
@@ -109,9 +113,16 @@
         <h3>Enter Course Grades</h3>
 
         <form>
-            <input type="text" id="firstName" name="firstName" placeholder="Full Name: First Name Only" required>
-            <input type="text" id="lastName" name="lastName" placeholder="Last Name: Last Name Only" required>
+            <label for="firstName">Full Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First Name Only" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name Only" required>
+
+            <label for="courseNumber">Course Number:</label>
             <input type="text" id="courseNumber" name="courseNumber" placeholder="Course Number" required>
+
+            <label for="finalGrade">Final Grade:</label>
             <input type="number" id="finalGrade" name="finalGrade" placeholder="Final Grade" required>
 
             <input type="submit" value="Submit">
