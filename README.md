@@ -29,10 +29,6 @@
         section {
             max-width: 600px;
             margin: 20px auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border: none; /* Remove border */
         }
 
@@ -156,12 +152,12 @@
             </tbody>
         </table>
 
-
     </section>
 
 </body>
 
 </html>
+
 
 
 
