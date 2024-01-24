@@ -29,16 +29,22 @@
         section {
             max-width: 600px;
             margin: 20px auto;
-            background-color: #fff;
+            background: url(https://imgur.com/a/wa5mrzk) center/cover no-repeat;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: white;
         }
 
         h2 {
             text-align: center;
             font-size: 18px;
             margin-bottom: 10px;
+        }
+
+        h2 img {
+            max-width: 100%;
+            height: auto;
         }
 
         h2 span {
@@ -48,30 +54,24 @@
         }
 
         h3 {
-            text-align: center;
-            font-size: 16px;
+            text-align: left;
+            font-size: 8px;
             margin-bottom: 10px;
         }
 
         form {
             font-size: 12px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 5px;
         }
 
         form label {
-            flex: 0 0 25%;
-            text-align: right;
-            margin-right: 10px;
+            display: inline-block;
+            width: 150px;
         }
 
         form input {
-            flex: 1;
+            width: calc(100% - 160px);
             box-sizing: border-box;
-            padding: 5px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
+            margin-bottom: 10px;
         }
 
         table {
@@ -108,24 +108,22 @@
 
     <section>
         <h2>
-            <span>Computer</span>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Networking</span>
-            <span>Technology</span>
+            <img src="https://i.imgur.com/Z5x9n5A.png" alt="Computer Networking Technology">
         </h2>
         <h3>Enter Course Grades</h3>
 
         <form>
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName" placeholder="First Name Only" required>
+            <label for="firstName">Full Name: First Name Only</label>
+            <input type="text" id="firstName" name="firstName" required>
 
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName" placeholder="Last Name Only" required>
+            <label for="lastName">Last Name: Last Name Only</label>
+            <input type="text" id="lastName" name="lastName" required>
 
-            <label for="courseNumber">Course Number:</label>
-            <input type="text" id="courseNumber" name="courseNumber" placeholder="Course Number" required>
+            <label for="courseNumber">Course Number</label>
+            <input type="text" id="courseNumber" name="courseNumber" required>
 
-            <label for="finalGrade">Final Grade:</label>
-            <input type="number" id="finalGrade" name="finalGrade" placeholder="Final Grade" required>
+            <label for="finalGrade">Final Grade</label>
+            <input type="number" id="finalGrade" name="finalGrade" required>
 
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
@@ -161,5 +159,6 @@
 </body>
 
 </html>
+
 
 
