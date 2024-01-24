@@ -53,16 +53,15 @@
 
         form {
             font-size: 10px; /* Adjusted font size */
-            display: flex;
-            flex-wrap: wrap;
-            gap: 5px;
-            align-items: center; /* Align items vertically in the center */
+            text-align: center;
         }
 
-        form label {
-            flex: 0 0 auto; /* Adjusted width */
-            text-align: right;
-            margin-right: 5px;
+        .grey-box {
+            background-color: #ddd;
+            display: inline-block;
+            padding: 5px;
+            border-radius: 4px;
+            margin: 5px; /* Added margin for separation */
         }
 
         form input {
@@ -71,11 +70,7 @@
             border: 1px solid #ddd;
             border-radius: 4px;
             margin-bottom: 5px;
-        }
-
-        form input[type="submit"],
-        form input[type="reset"] {
-            margin-right: 5px;
+            width: auto; /* Adjusted width to fit content */
         }
 
         table {
@@ -123,30 +118,24 @@
         </h2>
         <h3 class="small-text">Enter Course Grades</h3>
 
-        <form>
-            <div style="background-color: #ddd; display: inline-block; padding: 5px; border-radius: 4px;">
+        <div class="grey-box">
+            <form>
                 <label for="firstName">First Name:</label>
                 <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
-            </div>
 
-            <div style="background-color: #ddd; display: inline-block; padding: 5px; border-radius: 4px;">
                 <label for="lastName">Last Name:</label>
                 <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
-            </div>
 
-            <div style="background-color: #ddd; display: inline-block; padding: 5px; border-radius: 4px;">
                 <label for="courseNumber">Course Number:</label>
                 <input type="text" id="courseNumber" name="courseNumber" placeholder="Course Number" required>
-            </div>
 
-            <div style="background-color: #ddd; display: inline-block; padding: 5px; border-radius: 4px;">
                 <label for="finalGrade">Final Grade:</label>
                 <input type="number" id="finalGrade" name="finalGrade" placeholder="Final Grade" required>
-            </div>
 
-            <input type="submit" value="Submit">
-            <input type="reset" value="Reset">
-        </form>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
 
         <h3 class="small-text">The table below displays the contents of the FinalGrades.txt file located on the Webserver</h3>
 
@@ -178,4 +167,3 @@
 </body>
 
 </html>
-
