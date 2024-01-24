@@ -27,7 +27,7 @@
         }
 
         section {
-            max-width: 600px;
+            max-width: 200px;
             margin: 20px auto;
             background: url(https://imgur.com/a/wa5mrzk) center/cover no-repeat;
             padding: 20px;
