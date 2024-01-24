@@ -55,27 +55,23 @@
 
         form {
             font-size: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
         }
 
-        .form-label-box {
+        form label {
             display: inline-block;
+            width: 150px;
             padding: 5px;
             border: 1px solid #ddd;
             border-radius: 4px;
-            color: black; /* Black font color */
-        }
-
-        .form-label-box span {
-            background-color: #f0f0f0;
-            padding: 5px;
-            border-radius: 4px;
-            color: #888; /* Light grey font color */
+            box-sizing: border-box;
         }
 
         form input {
-            width: calc(100% - 10px);
+            flex: 1;
             box-sizing: border-box;
-            margin-bottom: 10px;
             padding: 5px;
             border: 1px solid #ddd;
             border-radius: 4px;
@@ -122,10 +118,10 @@
         <h3>Enter Course Grades</h3>
 
         <form>
-            <label for="firstName" class="form-label-box">Full Name: <span>First Name Only</span></label>
+            <label for="firstName">Full Name: First Name Only</label>
             <input type="text" id="firstName" name="firstName" required>
 
-            <label for="lastName" class="form-label-box">Last Name: <span>Last Name Only</span></label>
+            <label for="lastName">Last Name: Last Name Only</label>
             <input type="text" id="lastName" name="lastName" required>
 
             <label for="courseNumber">Course Number</label>
@@ -168,4 +164,5 @@
 </body>
 
 </html>
+
 
