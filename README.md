@@ -69,12 +69,16 @@
             background-color: #f0f0f0;
             padding: 5px;
             border-radius: 4px;
+            color: black; /* Black font color */
         }
 
         form input {
             width: calc(100% - 10px);
             box-sizing: border-box;
             margin-bottom: 10px;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
         }
 
         table {
