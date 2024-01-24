@@ -1,3 +1,4 @@
+
 <html lang="en">
 
 <head>
@@ -32,6 +33,24 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        h2 span {
+            display: block;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 10px;
         }
 
         form {
@@ -82,7 +101,11 @@
     </header>
 
     <section>
-        <h2> Computer<br>                            Networking<br>                            Technology</h2>
+        <h2>
+            <span>Computer</span>
+            <span>Networking</span>
+            <span>Technology</span>
+        </h2>
         <h3>Enter Course Grades</h3>
 
         <form>
