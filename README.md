@@ -61,7 +61,7 @@
         }
 
         form label {
-            flex: 0 0 100%;
+            flex: 0 0 25%;
             text-align: right;
             margin-right: 10px;
         }
