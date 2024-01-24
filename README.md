@@ -148,7 +148,7 @@
             </form>
         </div>
 
-        <h4>The table below displays the contents of the FinalGrades.txt file located on the Webserver</h4>
+        <h4 class="tiny-text">The table below displays the contents of the FinalGrades.txt file located on the Webserver</h4>
 
         <table>
             <thead>
